@@ -4,7 +4,18 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-color: #FBF9F5;
+}
+
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 header {
+
+  font-family: "Open+Sans" sans-serif;
   background-color: #f56b2a;
   height: 55px;
 }
@@ -16,16 +27,40 @@ nav li {
   color: white;
 }
 
+button {
+  text-align: center;
+  color: white;
+  padding-right: 35px;
+  margin-bottom: 5px;
+  text-decoration: inherit;
+}
+
 .logo {
   float: left;
+}
+
+.pub {
+  float: left;
+}
+
+.publicite li {
+  list-style: none;
+  border: 1px solid blue;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .menu {
   padding-top: 2px;
 
   }
 
-.bouton {
+.region {
+  margin-top: -140px;
+}
+
+.nom-de-region li {
+  margin-top: 0;
+  list-style: none;
   text-align: right;
-  color: white;
-  padding-right: 50px;
 }
