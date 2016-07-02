@@ -15,10 +15,12 @@ section {
 
 header {
 
-  font-family: "Open+Sans" sans-serif;
+  font-family: "Open+Sans";
   background-color: #f56b2a;
   height: 55px;
+
 }
+
 
 nav li {
   float: left;
@@ -30,9 +32,11 @@ nav li {
 button {
   text-align: center;
   color: white;
+  background-color: transparent;
   padding-right: 35px;
-  margin-bottom: 5px;
-  text-decoration: inherit;
+  margin-bottom: 8px;
+  text-decoration:none;
+  border: 1px solid lightgrey;
 }
 
 .logo {
@@ -44,11 +48,28 @@ button {
 }
 
 .publicite li {
+  display: block;
   list-style: none;
   border: 1px solid blue;
   width: 300px;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.annonce {
+  background-color: blue;
+  color: white;
+
+}
+
+.recherche {
+  background-color: white;
+  color: blue;
+}
+
+.actualites {
+  background-color: grey;
+  color: white;
 }
 .menu {
   padding-top: 2px;
@@ -59,6 +80,9 @@ button {
   margin-top: -140px;
 }
 
+.nom-de-region {
+  margin-top: -400px;
+}
 .nom-de-region li {
   margin-top: 0;
   list-style: none;
