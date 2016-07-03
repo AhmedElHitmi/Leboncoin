@@ -113,4 +113,41 @@ p {
 display: inline-block;
 padding:0 18px 0 0px;
 margin:0 18px 0 18px;
+border-bottom: 1px solid white;
+
+}
+.coordonnees {
+text-decoration: none;
+}
+
+.coordonnees li {
+  float:left;
+  list-style-type: none;
+}
+.applis li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.condition  {
+  float:left;
+}
+.condition li {
+  list-style-type: none;
+}
+
+.professionnel   {
+  float:left;
+}
+
+.professionnel li  {
+  list-style-type: none;
+}
+/*}
+.aide {
+  float:left;
+}*/
+
+.aide li {
+  list-style-type: none;
 }
