@@ -14,13 +14,16 @@ section {
 }
 
 header {
-
+  /*position: fixed;*/
   font-family: "Open+Sans";
   background-color: #f56b2a;
   height: 55px;
-
 }
 
+footer {
+  background-color: #444739;
+  color: white;
+}
 
 nav li {
   float: left;
@@ -39,6 +42,15 @@ button {
   border: 1px solid lightgrey;
 }
 
+p {
+  text-align: center;
+
+}
+
+.affaire {
+  text-align:left;
+}
+
 .logo {
   float: left;
 }
@@ -47,13 +59,21 @@ button {
   float: left;
 }
 
+.publicite {
+
+  text-align: left;
+  padding-left: 0;
+}
+
 .publicite li {
   display: block;
   list-style: none;
   border: 1px solid blue;
-  width: 300px;
+  border-radius: 5px;
+  width: 350px;
   margin-bottom: 10px;
   margin-top: 10px;
+
 }
 
 .annonce {
@@ -87,4 +107,10 @@ button {
   margin-top: 0;
   list-style: none;
   text-align: right;
+}
+
+.entete-footer li {
+display: inline-block;
+padding:0 18px 0 0px;
+margin:0 18px 0 18px;
 }
